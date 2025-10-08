@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import profile from "../assets/1.jpeg"
+import React, { useState } from "react";
+import profile from "../assets/1.jpeg";
 
 const About = () => {
-  const [activeTab, setActiveTab] = useState('skills');
+  const [activeTab, setActiveTab] = useState("skills");
 
   const openTab = (tabName) => {
     setActiveTab(tabName);
@@ -30,57 +30,103 @@ const About = () => {
             </p>
 
             <div className="tab-titles">
-              <p 
-                className={`tab-links ${activeTab === 'skills' ? 'active-links' : ''}`} 
-                onClick={() => openTab('skills')} 
-                style={{color: 'aqua'}}
+              <p
+                className={`tab-links ${
+                  activeTab === "skills" ? "active-links" : ""
+                }`}
+                onClick={() => openTab("skills")}
+                style={{ color: "aqua" }}
               >
                 Skills
               </p>
-              <p 
-                className={`tab-links ${activeTab === 'experience' ? 'active-links' : ''}`} 
-                onClick={() => openTab('experience')} 
-                style={{color: 'aqua'}}
+              <p
+                className={`tab-links ${
+                  activeTab === "experience" ? "active-links" : ""
+                }`}
+                onClick={() => openTab("experience")}
+                style={{ color: "aqua" }}
               >
                 Experience
               </p>
-              <p 
-                className={`tab-links ${activeTab === 'education' ? 'active-links' : ''}`} 
-                onClick={() => openTab('education')} 
-                style={{color: 'aqua'}}
+              <p
+                className={`tab-links ${
+                  activeTab === "education" ? "active-links" : ""
+                }`}
+                onClick={() => openTab("education")}
+                style={{ color: "aqua" }}
               >
                 Education
               </p>
             </div>
 
-            <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
+            <div
+              className={`tab-contents ${
+                activeTab === "skills" ? "active-tab" : ""
+              }`}
+              id="skills"
+            >
               <ul>
-                <li><span>UI & UX</span> <br />Designing web interfaces</li>
-                <li><span>Web Development</span> <br />Web App Development</li>
+                <li>
+                  <span>Frontend</span> <br />
+                  React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3,
+                  Tailwind, Bootstrap
+                </li>
+                <li>
+                  <span>Backend</span> <br />
+                  Node.js, Express.js,PHP,MongoDB, SQL, PostgreSQL
+                </li>
+                <li>
+                  <span>Tools,Languages</span> <br />
+                  Git/GitHub, Postman, Docker,Python, JavaScript (ES6+)
+                </li>
+                <li>
+                  <span>Other skills</span> <br />
+                  DSA,OOPs,DBMS
+                </li>
               </ul>
             </div>
 
-            <div className={`tab-contents ${activeTab === 'experience' ? 'active-tab' : ''}`} id="experience">
+            <div
+              className={`tab-contents ${
+                activeTab === "experience" ? "active-tab" : ""
+              }`}
+              id="experience"
+            >
               <ul>
-                <li><h2 style={{color: 'blueviolet'}}>Personal Project</h2></li>
-                <li><span>Portfolio</span> <br />....</li>
-                <li><span>E-commerce website</span> <br />....</li>
+                <li>
+                  <h2 style={{ color: "blueviolet" }}>Personal Project</h2>
+                </li>
+                <li>
+                  <span>QuickGPT – AI-Powered Content Generator</span> <br />
+                  Tech Stack: React.js, Tailwind CSS, Node.js, Express.js,
+                  MongoDB, OpenAI API, ImageKit, Axios, Postman, Git, Vercel
+                </li>
+                <li>
+                  <span>Chess.com clone</span> <br />
+                  Tech Stack:React.js,Node.js, Express,Chess.js and Socket.io
+
+                </li>
               </ul>
             </div>
 
-            <div className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id="education">
+            <div
+              className={`tab-contents ${
+                activeTab === "education" ? "active-tab" : ""
+              }`}
+              id="education"
+            >
               <ul>
                 <li>
-                  <span>B.Tech(2020-24)</span> <br />Veer Surendra Sai
-                  University Of Technology,Burla
+                  <span>B.Tech(2020-24)</span> <br />
+                  Veer Surendra Sai University Of Technology,Burla
                 </li>
                 <li>
-                  <span>12th-Science(2018-20)</span> <br />Prativa Residential
-                  Higher Secondary School,Chhatrapur
+                  <span>12th-Science(2018-20)</span> <br />
+                  Prativa Residential Higher Secondary School,Chhatrapur
                 </li>
                 <li>
-                  <span>10th(2018)</span> <br />Rabighosh Nodal
-                  Bidyapitha,Sumandal
+                  <span>10th(2018)</span> <br />
+                  Rabighosh Nodal Bidyapitha,Sumandal
                 </li>
               </ul>
             </div>

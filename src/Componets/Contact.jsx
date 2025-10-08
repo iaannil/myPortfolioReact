@@ -5,7 +5,7 @@ import {
   faA
 } from '@fortawesome/free-solid-svg-icons';
 import { 
-  faFacebook, 
+  // faFacebook, 
   faInstagram, 
   faLinkedin, 
   faGithub 
@@ -35,22 +35,22 @@ const Contact = () => {
           </p>
           
           <div className="social-icons">
-            <a href="https://m.facebook.com/profile.php?id=61556251740723&__n=K" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://m.facebook.com/profile.php?id=61556251740723&__n=K" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} />
-            </a>
-            <a href="https://www.instagram.com/ani.l_96/" target="_blank" rel="noopener noreferrer">
+            </a> */}
+            <a href="https://www.instagram.com/iaannil/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
             <a href="https://www.linkedin.com/in/anil-maharana-450b98202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href="https://github.com/akmanil" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/iaannil" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </div>
           
           <a 
-            href="https://rxresu.me/maharanaanil962/my-resume" 
+            href="https://rxresu.me/maharanaanil424/anil-maharana-fullstack-resume" 
             download 
             className="btn btn2"
           >

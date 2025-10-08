@@ -1,5 +1,5 @@
 import React from 'react';
-import { faCode, faPenNib } from '@fortawesome/free-solid-svg-icons';
+import { faCode } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Services = () => {
@@ -19,7 +19,7 @@ const Services = () => {
             <a href="#">learn more</a>
           </div>
 
-          <div>
+          {/* <div>
             <FontAwesomeIcon icon={faPenNib} />
             <h2 style={{ color: 'rgb(82, 121, 129)' }}>Web Design : Web App Application design</h2>
             <p>
@@ -28,7 +28,7 @@ const Services = () => {
               on RESTful API based backend. So I am doing Web Developing as Fullstack Web app Developer.
             </p>
             <a href="#">learn more</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React  from "react";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import sm from "../assets/sm_img.png";
+// import sm from "../assets/sm_img.png";
 // import { useNavigate } from "react-router-dom";
 
 import Projects from "./Projects";
@@ -17,7 +17,7 @@ const Portfolio = () => {
         <h1 className="sub-title">My Work : Projects</h1>
         <div className="work-list">
           <div className="work">
-            <img src={sm} alt="Social Media App" />
+            <img src="project.jpg" alt="Social Media App" />
             <div className="layer">
               <h3>QuickGPT – AI-Powered Content Generator</h3>
               <p>
@@ -49,7 +49,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <a className="btn" href="/projects">Go to Projects</a>
+          <a className="btn" href="/projects">Go to More Projects</a>
 
            
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import sm from "../assets/sm_img.png";
+// import sm1 from "../assets/sm_img.png";
 
 const Projects = () => {
   return (
@@ -10,7 +10,7 @@ const Projects = () => {
             <h1 className="sub-title">My Work : Projects</h1>
             <div className="work-list">
               <div className="work">
-                <img src={sm} alt="Social Media App" />
+                <img src="qgpt.jpg" alt="QuickGPT" />
                 <div className="layer">
                   <h3>QuickGPT – AI-Powered Content Generator</h3>
                   <p>
@@ -42,7 +42,7 @@ const Projects = () => {
                 </div>
               </div>
               <div className="work">
-                <img src={sm} alt="Social Media App" />
+                <img src="chess1.jpg" alt="Chess.com clone" />
                 <div className="layer">
                   <h3>Chess.com clone</h3>
                   <p>

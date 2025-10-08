@@ -194,6 +194,7 @@ nav ul li a:hover::after{
 
 #portfolio{
    padding:50px ,0;
+  
  
 }
 work-list{
@@ -202,11 +203,13 @@ work-list{
     grid-gap:40px;
     margin-top:50px;
     
+    
 }
 .work{
     border-radius:10px;
     position:relative;
     overflow:hidden;
+     margin-bottom: 18px;
 }
 .work img{
    width: 100%;

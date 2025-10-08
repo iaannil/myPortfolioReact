@@ -38,15 +38,17 @@ const Contact = () => {
             {/* <a href="https://m.facebook.com/profile.php?id=61556251740723&__n=K" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faFacebook} />
             </a> */}
+            <a href="https://www.linkedin.com/in/iaannil" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+             <a href="https://github.com/iaannil" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
             <a href="https://www.instagram.com/iaannil/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} />
             </a>
-            <a href="https://www.linkedin.com/in/anil-maharana-450b98202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-            <a href="https://github.com/iaannil" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
+            
+           
           </div>
           
           <a 

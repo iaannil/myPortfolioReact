@@ -22,8 +22,8 @@ function App() {
     // </>
     <BrowserRouter>
       <Routes>
-        <Route path="/myPortfolioReact" element={<Home />} />
-        <Route path="/myPortfolioReact/projects" element={<Projects />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </BrowserRouter>
   );

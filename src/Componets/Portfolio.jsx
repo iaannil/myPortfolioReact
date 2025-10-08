@@ -48,38 +48,8 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-          <div className="work">
-            <img src={sm} alt="Social Media App" />
-            <div className="layer">
-              <h3>Chess.com clone</h3>
-              <p>
-                Tech Stack: React.js, Tailwind CSS, Node.js,,Chess.js,Socket.io,Express.js, Postman, Git, Vercel
-              </p>
-              <h4>
-                - Real-time multiplayer chess game built with Node.js, Express, and Socket.io .
-              </h4>
-              <h4>
-                - Implemented WebSocket communication for live move synchronization between players.
-              </h4>
-              <h4>
-                - Integrated chess.js for game logic, move validation, and special move handling.
 
-              </h4>
-              <h4>
-                - Developed drag-and-drop interface with turn-based validation and board state management
-              </h4>
-              <h4>
-                -Designed player role system (white/black/spectator) with proper connection handling.
-              </h4>
-              <a
-                href="https://chess-com-virid.vercel.app/"
-              >
-                <FontAwesomeIcon icon={faLink} />
-              </a>
-            </div>
-          </div>
-
-          <a className="btn" href="/myPortfolioReact/projects">Go to Projects</a>
+          <a className="btn" href="/projects">Go to Projects</a>
 
            
 

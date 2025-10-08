@@ -73,6 +73,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
+          <a className="btn" href="/">Go to Home Page</a>
         </div>
   )
 }

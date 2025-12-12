@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
               
               <div className="work">
-                <img src="goout.jpg" alt="GO-OUT" />
+                <img src="goout.png" alt="GO-OUT" />
                 <div className="layer">
                   <h3>Go-OUT Travel App</h3>
                   <p>

@@ -41,6 +41,43 @@ const Projects = () => {
                   </a>
                 </div>
               </div>
+              
+              <div className="work">
+                <img src="qgpt.jpg" alt="QuickGPT" />
+                <div className="layer">
+                  <h3>Go-OUT Travel App</h3>
+                  <p>
+                    Tech Stack: Nextjs, Tailwind CSS, Docker, Git, Vercel
+                  </p>
+                  <h4>
+                    - Developed a responsive travel web application using Next.js and Tailwind CSS.
+
+                  </h4>
+                  <h4>
+                    - Containerized the application using a custom Dockerfile and built optimized production images.
+
+                  </h4>
+                  <h4>
+                    - Published the Docker image on Docker Hub (docker push username/goout:latest).
+
+                  </h4>
+                  <h4>
+                    - Deployed on Vercel with Git-based CI/CD, ensuring scalability
+                    and production readiness.
+                  </h4>
+                  <h4>
+                    - Automated environment setup and ensured consistent deployments across machines using containers.
+                  </h4>
+                  <a
+                    href="https://go-out-kappa.vercel.app/
+    "
+                  >
+                    <FontAwesomeIcon icon={faLink} />
+                  </a>
+                </div>
+              </div>
+
+
               <div className="work">
                 <img src="chess1.jpg" alt="Chess.com clone" />
                 <div className="layer">
